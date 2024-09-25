@@ -34,7 +34,7 @@ const emit = defineEmits(["loadComplete"]);
 
 // 壁纸随机数
 // 请依据文件夹内的图片个数修改 Math.random() 后面的第一个数字
-const bgRandom = Math.floor(Math.random() * 10 + 1);
+const bgRandom = Math.floor(Math.random() * 1 + 1);
 
 // 更换壁纸链接
 const changeBg = (type) => {
@@ -43,9 +43,9 @@ const changeBg = (type) => {
   } else if (type == 1) {
     bgUrl.value = "https://api.dujin.org/bing/1920.php";
   } else if (type == 2) {
-    bgUrl.value = "https://api.vvhan.com/api/wallpaper/views";
+    bgUrl.value = "https://api.aixiaowai.cn/gqapi/gqapi.php";
   } else if (type == 3) {
-    bgUrl.value = "https://api.vvhan.com/api/wallpaper/acg";
+    bgUrl.value = "https://api.aixiaowai.cn/api/api.php";
   }
 };
 
