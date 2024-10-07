@@ -6,7 +6,7 @@
   },
   {
     "icon": "Cloud",
-    "name": "网盘",
+    "name": "云盘",
     "link": "https://alist.elykia.cn/"
   },
   {
@@ -16,7 +16,7 @@
   },
   {
     "icon": "Compass",
-    "name": "站点监测",
+    "name": "监测面板",
     "link": "https://status.elykia.cn/"
   },
   {
