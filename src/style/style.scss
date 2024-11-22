@@ -19,7 +19,7 @@ body {
   padding: 0;
   background-color: #333;
   overflow: hidden;
-  font-family: "HarmonyOS_Regular", sans-serif;
+  font-family: "LXGW WenKai GB Screen", sans-serif;
 }
 
 *,
@@ -38,6 +38,12 @@ p {
 }
 
 // 字体文件
+@font-face {
+  font-family: "Pacifico-Regular";
+  font-display: swap;
+  src: url("/font/Pacifico-Regular.ttf") format("truetype");
+}
+
 @font-face {
   font-family: "Pacifico-Regular";
   font-display: swap;
